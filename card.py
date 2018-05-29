@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Liste des cartes et leurs mouvements
 class card:
     def __init__(self, name):

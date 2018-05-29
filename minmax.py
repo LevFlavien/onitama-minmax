@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Fonctions minmax et evaluation
 from copy import deepcopy
 

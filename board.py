@@ -1,7 +1,8 @@
+# -*- coding: utf-8 -*-
+
 # Plateau de jeu
 from card import *
 import random
-import sys
 from pprint import pprint
 
 class board(object):
@@ -155,7 +156,7 @@ class board(object):
             for j in range(self.height):
                 self.boardState[i][j] = " "
         for piece in self.blacklist:
-            self.boardState[piece[1]][piece[0]] = str(a)#'B'#u'◆'
+            self.boardState[piece[1]][piece[0]] = 'B'#str(a)#u'◆'
             a = a + 1
         for piece in self.whitelist:
             self.boardState[piece[1]][piece[0]] = 'W'#u'◇'
