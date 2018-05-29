@@ -247,4 +247,4 @@ class board(object):
             lines.append(u'  ├' + (u'───┼' * (self.width-1)) + u'───┤')
         lines.append(chr(self.height+64) + u' │ ' + u' │ '.join(self.boardState[-1]) + u' │')
         lines.append(u'  ╰' + (u'───┴' * (self.width-1)) + u'───╯')
-        return '\n'.join(lines)
+        return '\n'.join(lines).encode('utf-8')
